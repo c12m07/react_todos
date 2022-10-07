@@ -1,0 +1,64 @@
+body {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.Title{
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.Title span{
+  color: rgb(187, 12, 12);
+}
+
+.List{
+  list-style: square;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+}
+
+#gasto{
+  height: 35px;
+  text-align: center;
+  color: rgba(51, 51, 51, 0.7);
+  margin: 0 auto;
+}
+
+#gasto:focus{
+  outline: none;
+  border: 1px solid #2A8C82;
+  color: #333;
+  box-shadow: 0px 0px 5px #41BFB3;
+}
+
+#btn{
+  margin: 0 auto;
+  margin-top: 5%;
+  width: 170px;
+  height: 35px;
+  font-size: 18px;
+  letter-spacing: 1px;
+  color: whitesmoke;
+  border-radius: 15px;
+  background-color: #2A8C82;
+  border: 1px solid #2A8C82;
+  transition: all 300ms;
+}
+
+#btn:hover{
+  width: 200px;
+  letter-spacing: 4px;
+  background-color: #41BFB3;
+  color: #275950;
+  box-shadow: 0px 0px 3px #41BFB3;
+}
